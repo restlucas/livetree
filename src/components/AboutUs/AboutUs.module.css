@@ -1,0 +1,37 @@
+.aboutUs {
+    width: 980px;
+    margin: 0 auto;
+    display: grid;
+    padding: 4em 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.aboutUs h1 {
+    line-height: 1;
+    font-size: 2rem;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.aboutUs h1::before {
+    content: " ";
+    width: 10px;
+    transform: translateX(-16px);
+    height: 2rem;
+    border-radius: 5px;
+    background: #93AF00;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.aboutUs img {
+    margin-top: 1.75rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aboutUs div:last-child {
+    margin-top: 3.5rem;
+}

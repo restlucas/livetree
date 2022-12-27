@@ -1,0 +1,24 @@
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header-parallax {
+    height: 60vh;
+    position: relative;
+}
+
+.content {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.title-parallax {
+    padding: 2rem;
+    color: #fff;
+    font-size: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, #fff 0px 0px 0px 3px;
+}
